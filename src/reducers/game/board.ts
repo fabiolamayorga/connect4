@@ -15,7 +15,6 @@ export const reducer = (
     case "DROP_COIN":
       const { column, color } = action.payload;
       return dropCoin(state, column, color);
-
     default:
       return state;
   }

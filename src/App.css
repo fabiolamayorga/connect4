@@ -62,6 +62,14 @@
   content: "×";
 }
 
+.Game-controllers button{
+  margin: 10px;
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+  background: black;
+}
+
 @keyframes animated {
   50% {
     transform: rotateY(180deg);

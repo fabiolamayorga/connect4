@@ -17,6 +17,7 @@ export function getInitialBoard(): BoardState {
 
     board.push(gameRow);
   }
+  console.log('board', board);
 
   return board;
 }
